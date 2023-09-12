@@ -1,21 +1,28 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #23e00a;
     margin: 0;
     padding: 0;
 }
 
-h1 {
+header {
+    background-color: #000000;
+    padding: 20px; /* Vous aviez écrit "panding" au lieu de "padding" */
     text-align: center;
-    color: #333;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Kanit', sans-serif;
 }
+h1{color: #23e00a;}
 
 form {
     max-width: 400px;
-    margin: 10 auto;
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ccc;
+    margin: 0 auto;
+    margin-top: 20px; /* J'ai réduit la marge supérieure, mais vous pouvez ajuster selon vos besoins */
+    padding: 40px;
+    background-color: #000000;
+    border: 3px solid #ccc;
+    color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -26,7 +33,7 @@ label {
 }
 
 input[type="text"] {
-    width: 100%;
+    width: 94%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
@@ -38,15 +45,21 @@ button {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #23e00a;
+    color: #000000;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
 } 
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #000000;
+    color:#23e00a;
+    border-radius:5px;
+   border:1px solid #23e00a ; 
 }
 
 ul {
